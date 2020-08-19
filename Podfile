@@ -7,5 +7,7 @@ target 'TwitterSentiments' do
 
   # Pods for TwitterSentiments
 pod'SwiftyJSON'
+pod 'IQKeyboardManagerSwift'
+
 
 end

@@ -8,6 +8,7 @@
 
 import UIKit
 import SwifteriOS
+import SwiftyJSON
 
 class ViewController: UIViewController {
     
@@ -15,6 +16,7 @@ class ViewController: UIViewController {
     let sentimentClassifier = TwitterSentimentModel()
     
     let swifter = Swifter(consumerKey: TWITTER_CONSUMER_KEY, consumerSecret: TWITTER_CONSUMER_SECRET)
+
 
     
     let tweetCount = 100
